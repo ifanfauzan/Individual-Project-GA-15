@@ -1,0 +1,92 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .intro {
+      width: 50%;
+    }
+    
+    .txt-contents {
+      font-size: 15px;  
+    }
+    
+    .logo {
+      width:170px;
+    }
+    
+    .top-wrapper h1 {
+      margin-left: 200px;
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+    
+    .section-title {
+      text-align:center;
+    }
+    
+     .footer {
+      text-align: left;
+    }
+  }
+  
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+    
+    .top-wrapper h1 {
+      font-size: 20px;
+      text-align:center;
+    } 
+    
+    .intro {
+      width:100%;
+    }
+    
+    .section-title {
+      margin:10px;
+      padding:10px;
+    }
+    
+    .txt-contents {
+      font-size: 15px;  
+    }
+    
+    .contact-wrapper {
+      margin:10px;
+      padding:10px;
+      width:50%;
+    }
+    .footer {
+      text-align: left;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    .header-right {
+      display:none;
+    }
+    
+    .menu-icon {
+      display:block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .top-wrapper p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }

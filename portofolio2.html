@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ifan</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/fnt-aowesome/4.5.0/css/font-awesome.min.css">
+    <script src ="app.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://media-exp1.licdn.com/dms/image/C5603AQFtFF2xONKtLQ/profile-displayphoto-shrink_800_800/0/1615526702564?e=1634169600&v=beta&t=DzaIkbPNtBTiOvAAViwlBuKS3MNRWvnjHo34riQ3vXM">
+        </div>
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Contact Now</a>
+          <a href="#">My Websites</a>
+          <a href="#" class="cv">My Updated CV</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>Hi ! My Name is Ifan Fauzan</h1>
+        <h1>Nice to meet you !</h1>
+        <div class="btn-wrapper">
+          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Follow me on Facebook</a>
+          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Follow me on Twitter</a>
+        </div>
+      </div>
+    </div>
+
+    <h3 class = "section-title">My Summary</h3> 
+
+    <div class="intro-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2><span class ="i">IFAN</span> is a teacher who works in the financial industry and dreams of becoming a mobile application developer</h2>
+          <h2>...</h2>
+          <h2>Here are 4 important points to know about me</h2>
+          <h2>...</h2>
+        </div>
+        <div class="intros">
+          <div class="intro">
+            <div class="intro-icon">
+              <img src="portofolio2.svg">
+              <p>Education</p>
+            </div>
+              <li class="txt-contents"> 2010 - 2015
+                <ul>Universitas Sultan Ageng Tirtayasa</ul>
+                <ul>Mathematics Education</ul>
+              </li>
+          </div>
+          <div class="intro">
+            <div class="intro-icon">
+              <img src="briefcase-solid.svg">
+              <p>Work Experience</p>
+            </div>
+            <li class="txt-contents">2014 - 2021
+              <ul> Primagama as Mathematics tutor / 2014</ul>
+              <ul> BCA as Operation Staff / 2015 </ul>
+            </li>
+          </div>
+          <div class="intro">
+            <div class="intro-icon">
+              <img src="thumbs-up-regular.svg">
+              <p>Interest</p>
+            </div>
+            <li class ="txt-contents">bornday - 2021
+              <ul>Jogging</ul>
+              <ul>Travel</ul>
+              <ul>Webinar</ul>
+              <ul>Manga</ul>
+            </li>
+          </div>
+          <div class="intro">
+            <div class="intro-icon">
+              <img src="clipboard-solid.svg">
+              <p>Certificate</p>
+            </div>
+            <li class="txt-contents">Bornday - 2021
+              <ul>Personal Excellence Program By PRIMASI</ul>
+              <ul>Personal Ajustment & T - Grup By GMS HR Consultant</ul>
+              <ul>Self Development Program - Valuable Person By MIC</ul>
+              <ul>Digital Marketing Fullstack - Rakamin Academy</ul>
+              <ul>HTML, CSS - Progate</ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <h3 class ="section-title"> For Further Information </h3>
+
+    <div class = "contact-wrapper">
+      <form action="#">
+        <p>Email</p>
+        <input placeholder="Input your email" type="email" name= "email">
+        <p>Massage</p>
+        <textarea placeholder="Input your massage" name="Pesan" id="" cols="30" rows="10"></textarea>
+        <input class= "contact-submit" placeholder="Input your massage" type="submit" value="Send">
+      </form>
+    </div>
+    
+     <h3 class ="section-title">  </h3>
+    
+    <div class ="footer">
+      
+      <h1>Salam hangat ! <br>...<br>...<br>
+        <div class="animasi">
+           <span>
+            Ifan<br>
+            Fauzan<br>
+            Novyansyah<br>
+          </span>
+        </div>
+      </h1>
+    </div>
+
+
+    <h3>Dark Mode</h3>
+
+    <p>
+      <span class ="icon" onclick="setDarkMode(false)"><img src="sun-regular.svg" alt=""></span>
+      <span class ="icon" onclick="setDarkMode(true)"><img src="sun-solid.svg" alt=""></span>
+    </p>
+
+    <style>
+      #darkmode {
+        background:grey;
+        color: white;
+      }
+
+      #darkmode.footer{
+        background:grey;
+      }
+
+      </style>
+    
+    <script>
+      function setDarkMode(isdark) {
+        if(isdark) {
+          document.body.setAttribute('id' ,'darkmode')
+        } else {
+          document.body.setAttribute('id' , '')
+        }
+      }
+    </script>
